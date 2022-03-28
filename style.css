@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  background-color: hsl(235, 21%, 11%);
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  height: 250px;
+  background-image: url("./images/bg-mobile-dark.jpg"),
+    linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 7% 6%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 700;
+}
+
+main {
+  margin: 0 6%;
+  text-align: center;
+}
+
+.input_container,
+.list_container,
+.options-container {
+  background-color: hsl(235, 24%, 19%);
+  border-radius: 5px;
+}
+
+.list_container,
+.options-container {
+  margin-top: 15px;
+}
